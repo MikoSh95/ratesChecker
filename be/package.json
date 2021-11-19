@@ -11,10 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/MikoSh95/ratesChecker.git"
   },
-  "author": "",
   "license": "ISC",
-  "workspaces": [
-    "./be/*",
-    "./fe/*"
-  ]
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  }
 }
