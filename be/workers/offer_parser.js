@@ -1,4 +1,4 @@
-module.exports = (
+const offerParser = (
     title,
     city,
     company_name,
@@ -32,4 +32,8 @@ module.exports = (
         currency,
         skills,
     }
+}
+
+export {
+    offerParser,
 }

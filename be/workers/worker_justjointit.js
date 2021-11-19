@@ -1,7 +1,7 @@
-const axios = require('axios');
-const offerParser = require('./offer_parser');
+import axios from 'axios';
+import {offerParser} from './offer_parser.js';
 
-class Worker_justjointit {
+export class Worker_justjointit {
 
     #endpoint = 'https://justjoin.it/api/offers';
 
@@ -33,5 +33,3 @@ class Worker_justjointit {
         })
     }
 }
-
-module.exports = Worker_justjointit;
