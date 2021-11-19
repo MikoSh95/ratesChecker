@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "date": "2021-1-1",
+      "low": 10,
+      "high": 20,
+      "open": 8,
+      "close": 15,
+      "volume": 15
+    },
+    {
+      "date": "2021-1-2",
+      "low": 10,
+      "high": 20,
+      "open": 6,
+      "close": 9,
+      "volume": 14
+    }
+  ]
+}
